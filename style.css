@@ -1,0 +1,146 @@
+/* Reset */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #2e2d2d;
+  color: #eaeaea;
+}
+
+/* Navigasi */
+header {
+  background: #1e1e1e;
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: #aaa;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+  color: #00ffd9;
+}
+
+/* Hero */
+.hero {
+  background: url('foto.jpg') no-repeat center center/cover;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.hero .overlay {
+  background: rgba(0,0,0,0.6);
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.hero h1 {
+  font-size: 40px;
+  margin: 10px 0;
+}
+
+.hero h1 span {
+  color: #00ffcc;
+}
+
+.btn-group {
+  margin-top: 20px;
+}
+
+.btn {
+  background: #00ffcc;
+  color: #0f0f0f;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 5px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #00ccaa;
+}
+
+/* Nilai semester */
+.data-akademik {
+  padding: 40px;
+  text-align: center;
+}
+
+.data-akademik table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 80%;
+  background: #1e1e1e;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th, td {
+  border: 1px solid #333;
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  background: #00ffcc;
+  color: #0f0f0f;
+}
+
+/* About */
+.about {
+  padding: 40px;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.profil {
+  width: 200px;
+  border-radius: 10px;
+  border: 3px solid #00ffcc;
+}
+
+.about h2, .about h3 {
+  color: #00ffcc;
+}
+
+.about ul {
+  list-style: square;
+  padding-left: 20px;
+}
+
+/* Footer */
+footer {
+  background: #1e1e1e;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
